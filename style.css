@@ -51,7 +51,6 @@ body {
 }
 
 .container {
-  /* background: #ddd; */
   margin: 30px auto;
   max-width: 400px;
   padding: 30px;
@@ -60,13 +59,10 @@ body {
 .game-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
-  /* background: #888; */
 }
 
 .game-box {
-  padding: 25px;
-  /* background: #ddd; */
+  padding: 35px;
 }
 
 .border-right {
@@ -79,12 +75,10 @@ body {
 
 /* footer */
 .footer {
-  background: #ddd;
-  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 126px;
+  margin-top: 65px;
 }
 
 .footer > p {
