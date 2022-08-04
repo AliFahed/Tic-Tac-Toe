@@ -62,7 +62,10 @@ body {
 }
 
 .game-box {
-  padding: 35px;
+  padding: 6px;
+  text-align: center;
+  height: 80px;
+  font-size: 2.7rem;
 }
 
 .border-right {
