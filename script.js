@@ -1,7 +1,15 @@
 const Gameboard = (() => {
-  const gameboard = [];
+  const gameboard = ['1', 'O', 'X', 'O', 'X', 'O', 'X', 'O', '9'];
 
-  return { };
+  const renderArrayToWebpage = () => {
+    const gameBoxes = document.querySelectorAll('[data-game-box]');
+
+    gameBoxes.forEach(box => {
+      box.textContent = gameboard[0];
+    });
+  };
+
+  return { renderArrayToWebpage };
 })();
 
 const displayController = (() => {
@@ -11,3 +19,5 @@ const displayController = (() => {
 const Players = () => {
 
 };
+
+Gameboard.renderArrayToWebpage();
